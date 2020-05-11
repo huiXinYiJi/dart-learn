@@ -12,6 +12,10 @@ void main(List args) {
 
   printEmp2('李四'); // name = 李四, age = null, gender = null
   printEmp2('李四', 18, '男'); // name = 李四, age = 18, gender = 男
+
+  // 获取对象的类型
+  var a = 1;
+  print(a.runtimeType); // int
 }
 
 // String getPerson(String name, int age) {
